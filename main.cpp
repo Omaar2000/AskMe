@@ -286,7 +286,7 @@ public:
             cout<< users[i].getID()<<"\t"<<users[i].getname()<<endl;
         }
     }
-    void feed(vector<question> &q)
+    void feed(vector<question> &q) // Showing all answered questions of your followings
     {
         for(int i=0; i<question::getLastQ(); i++)
         {
